@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: rgb(27, 27, 27);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  background: white;
+  width: 270px;
+  margin: 10px;
+  border-radius: 15px;
+}
+
+.card-image {
+  height: 220px;
+  margin-bottom: 14px;
+  background-size: cover;
+  border-radius: 15px 15px 0 0;
+}
+
+.image-1 {
+  background-image: url("1.jpg");
+  background-size: cover;
+}
+
+.image-2 {
+  background-image: url("2.jpg");
+  background-size: cover;
+}
+
+.image-3 {
+  background-image: url("3.jpg");
+  background-size: cover;
+}
+
+.image-4 {
+  background-image: url("4.jpg");
+  background-size: cover;
+}
+
+.image-5 {
+  background-image: url("5.jpg");
+  background-size: cover;
+}
+
+.image-6 {
+  background-image: url("6.jpg");
+  background-size: cover;
+}
+
+.card p {
+  padding: 10px;
+}
+
+h2 {
+  text-size-adjust: 30px;
+  padding-left: 15px;
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card h3 {
+  color: blue;
+  font-size: 12px;
+  padding-left: 15px;
+  padding-bottom: 7px;
+  padding-top: 14px;
+}
+
+.card p {
+  padding-left: 15px;
+  padding-bottom: 30px;
+  padding-right: 15px;
+  padding-top: 10px;
+  color: rgb(63, 63, 63);
+}
+
+.card:hover {
+  cursor: pointer;
+  color: blue;
+  transition: box-shadow 0.3s;
+  border: 1px solid blue;
+  float: left;
+}
